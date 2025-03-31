@@ -92,7 +92,7 @@ function broadcastStatus() {
 	});
 }
 
-// Start server
+// Start server test
 const PORT = process.env.PORT || 7778;
 server.listen(PORT, () => {
 	console.log(`WebSocket server listening on port ${PORT}`);
